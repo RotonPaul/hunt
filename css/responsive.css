@@ -1,0 +1,278 @@
+@media(min-width:576.8px) and (max-width:767.8px) {
+
+    .navbar-brand img {
+        width: 90%;
+    }
+
+    .navbar-toggler {
+        border-color: darkgoldenrod;
+    }
+
+    .navbar-toggler i {
+        color: rgb(243, 9, 9);
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .nav-item:hover {
+        background-color: #fff;
+    }
+
+    .navbar-nav {
+        margin-bottom: 0 !important;
+    }
+
+    .menu_bar {
+        transition: all 0.6s ease;
+        text-align: center;
+        background-color: rgba(128, 128, 128, 0.699);
+    }
+
+    .menu_bg {
+        border: 0;
+    }
+
+    .menu_bg ul li a::after {
+        bottom: 0;
+        left: 40%;
+    }
+
+    .menu_bg ul li a:hover::after {
+        width: calc(100% - 80%);
+
+    }
+
+    .slider_img {
+        height: 400px !important;
+    }
+
+    .slider_text h3 {
+        font-size: 23px;
+    }
+
+    .slider_text h1 {
+        font-size: 40px;
+    }
+
+    .slider_text p {
+        font-size: 14px;
+        max-width: 400px;
+        margin: 0 auto;
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+
+    .about_inner h3 {
+        font-size: 15px;
+    }
+
+    .about_inner p {
+        line-height: 25px;
+        font-size: 14px;
+    }
+
+    .about_middle {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .about_middle::before {
+        width: 60%;
+    }
+
+    .about_middle img {
+        width: 60%;
+    }
+
+    .about_middle::after {
+        height: 308px;
+        width: 308px;
+    }
+
+    #portfolio {
+        background: linear-gradient(rgba(0, 0, 0, 0.822), rgba(0, 0, 0, 0.747)), url(../images/port-bg.jpg) no-repeat center / cover;
+        clip-path: polygon(0 1%, 100% 0, 100% 98%, 0 100%);
+        padding: 50px 0;
+    }
+
+    .section_head h3 {
+        font-size: 30px;
+    }
+
+    .section_head p {
+        font-size: 15px;
+        line-height: 25px;
+        margin-bottom: 30px;
+    }
+
+    #portfolio .port_576px {
+        margin-bottom: 20px !important;
+    }
+
+
+    .price_box2 {
+        margin-bottom: 30px;
+    }
+
+    .counter_items {
+        margin-top: 10px;
+    }
+
+    #counter {
+        clip-path: polygon(0 7%, 100% 0px, 100% 93%, 0 100%);
+    }
+
+    .team_items {
+        margin-bottom: 10px;
+    }
+
+    .partner_img {
+        margin-right: 20px;
+    }
+
+    .contact_items {
+        margin-bottom: 35px;
+    }
+}
+
+@media (max-width:575.8px) {
+
+    .navbar-brand img {
+        width: 90%;
+    }
+
+    .navbar-toggler {
+        border-color: darkgoldenrod;
+    }
+
+    .navbar-toggler i {
+        color: rgb(243, 9, 9);
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .nav-item:hover {
+        background-color: #fff;
+    }
+
+    .navbar-nav {
+        margin-bottom: 0 !important;
+    }
+
+    .menu_bar {
+        transition: all 0.6s ease;
+        text-align: center;
+        background-color: rgba(128, 128, 128, 0.699);
+    }
+
+    .menu_bg {
+        border: 0;
+    }
+
+    .menu_bg ul li a::after {
+        bottom: 0;
+        left: 40%;
+    }
+
+    .menu_bg ul li a:hover::after {
+        width: calc(100% - 80%);
+
+    }
+
+    .slider_img {
+        height: 400px !important;
+    }
+
+    .slider_text h3 {
+        font-size: 23px;
+    }
+
+    .slider_text h1 {
+        font-size: 40px;
+    }
+
+    .slider_text p {
+        font-size: 14px;
+        max-width: 400px;
+        margin: 0 auto;
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+
+    .about_inner h3 {
+        font-size: 15px;
+    }
+
+    .about_inner p {
+        line-height: 25px;
+        font-size: 14px;
+    }
+
+    .about_middle {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .about_middle::before {
+        width: 60%;
+    }
+
+    .about_middle img {
+        width: 60%;
+    }
+
+    .about_middle::after {
+        height: 308px;
+        width: 308px;
+    }
+
+    #portfolio {
+        background: linear-gradient(rgba(0, 0, 0, 0.822), rgba(0, 0, 0, 0.747)), url(../images/port-bg.jpg) no-repeat center / cover;
+        clip-path: polygon(0 1%, 100% 0, 100% 98%, 0 100%);
+        padding: 50px 0;
+    }
+
+    .section_head h3 {
+        font-size: 30px;
+    }
+
+    .section_head p {
+        font-size: 15px;
+        line-height: 25px;
+        margin-bottom: 30px;
+    }
+
+    #portfolio .port_576px {
+        margin-bottom: 20px !important;
+    }
+
+
+    .price_box2 {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .counter_items {
+        margin-top: 10px;
+    }
+
+    #counter {
+        clip-path: polygon(0 7%, 100% 0px, 100% 93%, 0 100%);
+    }
+
+    .team_items {
+        margin-bottom: 10px;
+    }
+
+    .partner_img {
+        margin-right: 20px;
+    }
+
+    .contact_items {
+        margin-bottom: 35px;
+    }
+}
